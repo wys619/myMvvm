@@ -56,7 +56,7 @@ fun login() {
  android:onClick="@{()->loginVm.login()}"
 ```
 #### 4.网络请求（retrofit+rxjava+okhttp）
-```java
+```kotlin
   val builder = OkHttpClient.Builder()
    builder.connectTimeout(DEFAULT_TIME_OUT, TimeUnit.SECONDS)
     builder.writeTimeout(DEFAULT_READ_TIME_OUT, TimeUnit.SECONDS)
